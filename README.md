@@ -32,4 +32,5 @@ mobile版本 http://layer.layui.com/mobile/
 ```php
     <?php \xinyeweb\layer\LayerMobileAsset::register($this); ?>
 ```
+使用方法參考官方文檔
 
