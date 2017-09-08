@@ -11,7 +11,7 @@ namespace xinyeweb\layer;
 
 use yii\web\AssetBundle;
 
-class LayerAsset extends AssetBundle
+class LayerMobileAsset extends AssetBundle
 {
 
     public $css = [];
@@ -25,7 +25,7 @@ class LayerAsset extends AssetBundle
     ];
 
     public function init() {
-        $this->sourcePath = dirname(__FILE__) .DIRECTORY_SEPARATOR . 'assets/layer_pc';
+        $this->sourcePath = dirname(__FILE__) .DIRECTORY_SEPARATOR . 'assets/layer_mobile';
         parent::init();
     }
 }

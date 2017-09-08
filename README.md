@@ -24,3 +24,12 @@ to the require section of your `composer.json` file.
 
 Usage
 -----
+pc版本 http://layer.layui.com/
+```php
+    <?php \xinyeweb\layer\LayerAsset::register($this); ?>
+```
+mobile版本 http://layer.layui.com/mobile/
+```php
+    <?php \xinyeweb\layer\LayerMobileAsset::register($this); ?>
+```
+
