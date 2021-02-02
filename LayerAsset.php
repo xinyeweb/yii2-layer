@@ -25,7 +25,7 @@ class LayerAsset extends AssetBundle
     ];
 
     public function init() {
-        $this->sourcePath = dirname(__FILE__) .DIRECTORY_SEPARATOR . 'assets/layer_pc';
+        $this->sourcePath = dirname(__FILE__) .DIRECTORY_SEPARATOR . 'assets';
         parent::init();
     }
 }
